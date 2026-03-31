@@ -1,0 +1,24 @@
+---
+import HomeLayout from "../layouts/HomeLayout.astro";
+
+import { getCollection } from "astro:content"
+const posts = await getCollection("blog");
+---
+<HomeLayout title="Blogs">
+	<div class="text-zinc-400 flex flex-col gap-2 py-4">
+		<h1 class="text-3xl text-zinc-300 font-bold">Blogs</h1>
+		<p>I hope I write blogs.<br/>
+		</p>
+    </div>
+    <div class="flex flex-col gap-4">
+        {posts.map(post => (
+            <div class="w-fit">
+                <a href={`/blog/${post.data.slug}`}>
+                    <h2 class="font-bold hover:text-zinc-400">{post.data.title}</h2>
+                </a>
+                <p class="text-sm text-zinc-500">{post.data.pubdate.toLocaleDateString()}</p>
+            </div>
+        ))}
+	</div>
+</HomeLayout>
+

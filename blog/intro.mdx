@@ -1,0 +1,32 @@
+---
+title: The art of putting things off
+slug: the-art-of-putting-things-off
+description: A blog about the making of my portfolio website, and the motivation behind it.
+pubdate: 2026-03-31
+---
+The motivation behind writing this blog is two-fold. I wanted to redo my portfolio website ever since first year (I made it before coming to college). I also wanted to get started on writing blogs! Writing blogs was kept put off until I redesigned my portfolio website, and every time I sat down to work on my portfolio website I would be overwhelmed by the sheer number of things I could do, I would finally end up doing nothing.
+
+So, my solution to this is to make my first blog about the making of my portfolio website itself :)
+
+## Why make a portfolio/blog website?
+There is obviously the option to display your resume and projects, to impress that one guy from HR who clicks your website link by accident while going through your resume. However, the primary reason I had in mind when I first set out to make my portfolio website in 2024, was to get started on writing technical blogs and create an outlet to express myself. A portfolio website to me is like my corner of the internet. I get to voice my opinions on matters which probably don't even matter much, I get to keep a log of what I have been doing over the years, I get an opportunity to give back to the developer community, with the occasional blog on fixing an extremely specific bug somewhere. I for one have definitely found these kind of blogs all over the internet, and they have helped me out multiple times before. I feel blogs like these make the internet a little more human and brings it back to what it originally set out to be -- a medium to bring people together.
+
+## What went wrong
+At the time of writing this blog, I do have a portfolio website up and running at `aten2005.dev`, it has my resume and also lists all of my communication channels and socials, with a brief but rather exaggerated introduction of who I am. On paper, this seems like a passable portfolio website, it does what a portfolio website should do just fine. However, I feel this doesn't do justice to a portfolio website at all. The initial aim to make it my corner of the internet is lost, since I never ended up writing the blogs or really personalizing the website at all. The design of the website was largely inspired from somewhere else and doesn't feel like me. Hell, the colors on the website aren't my favorite either ;(
+
+I feel past me simply reduced it to whatever looked cool and flashy at the time and moved on with life.
+
+## What now?
+I feel the way forward is to simply start over. There is no need for it to be flashy or have crazy animations everywhere. These days I feel with the surge of LLM powered development somewhere or the other, in pursuit of the flash and dazzle, the intent behind things is somehow lost or diminished. This is kind of what is prophesized by the dead internet theory, however seeing it slowly take shape does make me feel uneasy.
+
+What does this mean? Start off with the most basic web page known to man and make changes as and when seen fit. Keep the blogs coming, they don't need to be polished or "rewritten by AI". The more raw and unfiltered they are the better. Will this be maintained? I don't know. Do I hope it's maintained? ABSOLUTELY.
+
+For the rest of this blog I will continue to document my progress on the website, until it's actually up and running. Consider this a stream of consciousness, passed through a 3 stage UV+RO filtration system, to provide only what's necessary and nothing more or nothing less.
+
+## How it's going
+
+31-03-2024
+- So, I finally sat down and got the landing page out and ready. There isn't really much going on for it. Most of my time was wasted as usual on deciding what frontend library to use. I had Astro chalked out for quite a while but I was really split on what frontend library to use with it. This dilemma only made me realize that I don't need one at all! I thought I would roll with alpinejs initially, since it looked like the most lightweight alternative available. However, after the setup, as I started fleshing out the website I realized I didn't need it all. Astro by itself is powerful enough to do whatever I need so far.
+- The next major decision was to choose how to store my blogs, do I want them to live in my github repository, or do I want to bring in an external headless CMS like hashnode. My main gripe with storing them in the repository itself was that it would be hard to manage them later as more and more blogs were added. Then I thought, that if they did get hard to manage I could always move to a different platform later. For now, keeping them inside the repository itself keeps the deploy pipeline simpler.
+- Finally, I decided to host the website on cloudflare pages. This was extremely simple to do, and it's automatically configured to build and deploy changes on push as well! It's hosted now at [staging.aten2005.dev](https://staging.aten2005.dev)
+
