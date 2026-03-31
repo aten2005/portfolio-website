@@ -4,10 +4,10 @@
 
 <div class="w-full py-4">
     <div class="flex gap-4">
-        <a class="hover:text-zinc-300 text-zinc-300" href="/">[/]</a>
-        <a class="hover:text-zinc-300" href="/blog">[/blog]</a>
-        <a class="hover:text-zinc-300" href="/resume">[/resume]</a>
-        <a class="hover:text-zinc-300" href="/fun">[/fun]</a>
+        <a class={`hover:text-zinc-300 text-zinc-300 ${Astro.url.pathname === '/' ? 'text-zinc-300' : 'text-zinc-500'}`} href="/">[/]</a>
+        <a class={`hover:text-zinc-300 text-zinc-300 ${Astro.url.pathname === '/blog' ? 'text-zinc-300' : 'text-zinc-500'}`} href="/blog">[/blog]</a>
+        <a class={`hover:text-zinc-300 text-zinc-300 ${Astro.url.pathname === '/resume' ? 'text-zinc-300' : 'text-zinc-500'}`} href="/resume">[/resume]</a>
+        <a class={`hover:text-zinc-300 text-zinc-300 ${Astro.url.pathname === '/fun' ? 'text-zinc-300' : 'text-zinc-500'}`} href="/fun">[/fun]</a>
         <p class="ml-auto">???</p>
     </div>
 </div>
