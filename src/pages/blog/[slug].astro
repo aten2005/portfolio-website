@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import HomeLayout from "../../layouts/HomeLayout.astro";
+import "../../styles/blog.css"
 
 export async function getStaticPaths() {
     const posts = await getCollection('blog');

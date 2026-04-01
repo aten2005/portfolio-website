@@ -1,0 +1,329 @@
+cv:
+  name: Archisman Das
+  email: "archisman0306@gmail.com"
+  phone: "+91 9830212422"
+  location: Hyderabad, Telangana
+  website: https://aten2005.dev
+  social_networks:
+    - network: LinkedIn
+      username: aten2005
+    - network: GitHub
+      username: aten2005
+  
+  sections:
+    Education:
+      - institution: BITS Pilani, Hyderabad Campus
+        location: Hyderabad, Telangana
+        degree: "B.E."
+        area: "Computer Science and M.Sc. in Economics | CGPA: 8.21"
+        start_date: 2024-08
+        end_date: 2029-05
+      - institution: Delhi Public School, Ruby Park
+        location: Kolkata, West Bengal
+        degree: "High School Diploma"
+        area: "(PCM + CS) | 12th: 96.2% 10th: 96.2%"
+        start_date: 2009-08
+        end_date: 2024-05
+
+    Projects:
+      - name: Surge
+        url: "https://github.com/crux-bphc/surge"
+        start_date: 2025-07
+        end_date: 2025-08
+        highlights:
+          - "Implemented background job processing with Redis and BullMQ to bypass strict CodeForces API rate limits."
+          - "Implemented MarkDown parsing to generate static pages at build."
+          - "Containerized the application using Docker to ensure parity between the local and production deployment"
+          - "Aggregated user information from CodeForces and generated a campus leaderboard alongside other metrics."
+          - "Achieved 200+ users within 48 hours of release."
+      - name: Robotics Club Website
+        url: "https://github.com/arc-bphc/arc-website-rewrite"
+        start_date: 2025-06
+        end_date: 2025-07
+        highlights:
+          - "Designed the wireframe and protoype using Figma"
+          - "Implemented the design using React, AstroJS and TailwindCSS"
+          - "Implemented custom cursor and hover effects."
+          - "Implemented a git based blog to document club projects and other activities"
+#      - name: Profile Builder
+#        start_date: 2024-06
+#        end_date: 2024-07
+#        highlights:
+#          - "Developed a platform to upload user information and generate a resume webpage"
+#          - "Integrated supabase for database, bucket storage and user authentication"
+#          - "Implemented SMS based OTP authentication using Twilio"
+#          - "Implemented an image picker and cropper using JavaScript"
+#      - name: Modern Matrimony
+#        start_date: 2023-06
+#        end_date: 2023-11
+#        highlights:
+#          - "Developed a matrimony website as part of a high school graduation project"
+#          - "Implemented a customized algorithm for matchmaking based on various parameters"
+#          - "Implemented cookie based authentication and persistent sessions"
+#          - "Collaborated and successfully headed a team of 6"
+#      - name: SRM Fetcher
+#        start_date: 2021-04
+#        end_date: 2022-01
+#        highlights:
+#          - "Developed a web scraping discord bot to fetch class links from school website everyday"
+#          - "100+ daily active users with an uptime of 99.9%"
+#          - "Prevented the school website from crashing everyday, by spreading out requests over time"
+
+    Experience:
+      - company: Sharanga HPC Cluster
+        location: Hyderabad, Telangana
+        position: Assistant System Administrator
+        start_date: 2025-06
+        end_date: present
+        highlights:
+          - "Automated bare-metal compute node provisioning by setting up a PXE boot server with a custom kickstart script, eliminating manual Rocky Linux OS installations."
+          - "Maintained 98% cluster availability by proactively monitoring and managing failing storage disks within a RAID-Z2 array, ensuring zero data loss."
+          - "Standardized the scientific software environment using Spack and Singularity containers, guaranteeing isolated and reproducible execution spaces for users."
+      - company: Schmooze Inc.
+        location: Remote
+        position: Frontend Intern
+        start_date: 2025-09
+        end_date: 2025-12
+        highlights:
+          - "Implemented a CI/CD pipeline utilizing GitHub Actions to automate site deployments to AWS S3 and CloudFront"
+          - "Developed an open-source serverless edge OAuth handler for Decap CMS utilizing Hono and AWS Lambda."
+          - "Built an internal operational interface to aggregate reviewer feedback, improving automated account flagging."
+      - company: CRUx, The Programming and Computing Club
+        location: Hyderabad, Telangana
+        position: Member
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - "Setup and managed containers for our flagship CTF CruXipher, using Docker and CTFd"
+          - "Conducted a dualboot workshop for incoming freshers to promote linux use on campus."
+          - "Managed deployment for ChronoFactorem, a timetable creation utility for our campus using Docker"
+#      - company: Automation and Robotics Club
+#        location: Hyderabad, Telangana
+#        position: Research Head
+#        start_date: 2024-09
+#        end_date: 2025-12
+#        highlights:
+#          - "Setup a Raspberry Pi to network 3D printers and allow remote printing and job monitoring"
+#          - "Used ROS2 and RViz to simulate a race car on a F1 Track with optimal path planning and obstacle avoidance"
+#          - "Assessed the technical feasibilty of club projects and researched on relevant technologies"
+
+    Technical Skills:
+      - label: Languages
+        details: "Python, Bash, C/C++, SQL, TypeScript, JavaScript"
+#      - label: Frameworks
+#        details: "React, Astro, Node.js, Flask, Hono"
+#      - label: Developer Tools
+#        details: "Git, Docker, Oracle Cloud, AWS, Ansible"
+      - label: Cloud & Infrastructure
+        details: "AWS (S3, CloudFront, Lambda), Oracle Cloud, Docker, Ansible, Linux"
+      - label: Tools & Orchestration
+        details: "Git, Spack, Singularity, CTFd, Redis, BullMQ, PostgreSQL"
+      - label: Web Technologies
+        details: "Node.js, Express, Hono, Flask, React, Astro"
+#      - label: Libraries
+#        details: "TailwindCSS, Supabase, Selenium, pandas, NumPy, Matplotlib, MongoDB, DrizzleORM, BullMQ"
+#      - label: Competitive Programming
+#        details: "Codeforces — aten2005 (Pupil, 1350), CodeChef - atendimento (3*, 1626)"
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    show_footer: false
+    show_top_note: false
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+  header:
+    connections:
+      separator: "|"
+      phone_number_format: international
+      display_urls_instead_of_usernames: false
+      show_icons: true
+
+# These are the sb2nov defaults
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 0, 0)
+  #   headline: rgb(0, 0, 0)
+  #   connections: rgb(0, 0, 0)
+  #   section_titles: rgb(0, 0, 0)
+  #   links: rgb(0, 0, 0)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: New Computer Modern
+  #     name: New Computer Modern
+  #     headline: New Computer Modern
+  #     connections: New Computer Modern
+  #     section_titles: New Computer Modern
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: true
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: false
+  #     display_urls_instead_of_usernames: true
+  #     separator: •
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in: []
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: false
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: ◦
+  #     nested_bullet: ◦
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**
+  #       *DEGREE* *in* *AREA*
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column:
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**
+  #       *COMPANY*
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV

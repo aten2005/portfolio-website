@@ -1,6 +1,6 @@
 import { defineCollection } from "astro:content";
 
-import { glob } from 'astro/loaders';
+import { glob, file } from 'astro/loaders';
 
 import { z } from "zod";
 
@@ -15,6 +15,11 @@ const blog = defineCollection({
     })
 });
 
+const resume = defineCollection({
+    loader: file("resume/resume.yaml")
+});
+
 export const collections = {
     blog,
+    resume
 };

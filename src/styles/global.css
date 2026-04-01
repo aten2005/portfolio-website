@@ -10,9 +10,13 @@ h1 {
 }
 
 h2 {
-    @apply text-xl text-zinc-300 font-bold pb-1 pt-3;
+    @apply text-2xl text-zinc-300 font-bold;
+}
+
+h3 {
+    @apply text-xl text-zinc-300 font-bold;
 }
 
 p {
-    @apply text-base text-zinc-400;
+    @apply text-base text-zinc-300;
 }
