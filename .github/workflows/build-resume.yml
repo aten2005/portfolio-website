@@ -1,0 +1,31 @@
+name: Build resume
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build_resume:
+    name: Build Resume
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13.11"
+      - name: Install RenderCV
+        run: |
+          pip install "rendercv[full]"
+      - name: Build Resume
+        run: |
+          rendercv render resume/resume.yaml --cv.location ""
+      - name: Copy Artifacts
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: resume/rendercv_output
+          publish_branch: resume
+          
