@@ -3,6 +3,7 @@ import HomeLayout from "../layouts/HomeLayout.astro";
 
 import { getCollection } from "astro:content"
 const posts = await getCollection("blog");
+const sortedPosts = posts.sort((a, b) => b.data.pubdate.getTime() - a.data.pubdate.getTime());
 ---
 <HomeLayout title="Blogs">
 	<div class="text-zinc-400 flex flex-col gap-2 py-4">
@@ -10,8 +11,8 @@ const posts = await getCollection("blog");
 		<p>I hope I write blogs.<br/>
 		</p>
     </div>
-    <div class="flex flex-col gap-4">
-        {posts.map(post => (
+    <div class="flex flex-col gap-4 mb-6">
+        {sortedPosts.map(post => (
             <div class="w-fit">
                 <a href={`/blog/${post.data.slug}`}>
                     <h2 class="font-bold hover:text-zinc-400">{post.data.title}</h2>

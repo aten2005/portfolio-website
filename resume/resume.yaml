@@ -1,7 +1,7 @@
 cv:
   name: Archisman Das
   email: "archisman0306@gmail.com"
-  phone: "+91 9830212422"
+  phone: "+919830212422"
   location: Hyderabad, Telangana
   website: https://aten2005.dev
   social_networks:
@@ -45,29 +45,29 @@ cv:
           - "Implemented the design using React, AstroJS and TailwindCSS"
           - "Implemented custom cursor and hover effects."
           - "Implemented a git based blog to document club projects and other activities"
-#      - name: Profile Builder
-#        start_date: 2024-06
-#        end_date: 2024-07
-#        highlights:
-#          - "Developed a platform to upload user information and generate a resume webpage"
-#          - "Integrated supabase for database, bucket storage and user authentication"
-#          - "Implemented SMS based OTP authentication using Twilio"
-#          - "Implemented an image picker and cropper using JavaScript"
-#      - name: Modern Matrimony
-#        start_date: 2023-06
-#        end_date: 2023-11
-#        highlights:
-#          - "Developed a matrimony website as part of a high school graduation project"
-#          - "Implemented a customized algorithm for matchmaking based on various parameters"
-#          - "Implemented cookie based authentication and persistent sessions"
-#          - "Collaborated and successfully headed a team of 6"
-#      - name: SRM Fetcher
-#        start_date: 2021-04
-#        end_date: 2022-01
-#        highlights:
-#          - "Developed a web scraping discord bot to fetch class links from school website everyday"
-#          - "100+ daily active users with an uptime of 99.9%"
-#          - "Prevented the school website from crashing everyday, by spreading out requests over time"
+      # - name: Profile Builder
+      #   start_date: 2024-06
+      #   end_date: 2024-07
+      #   highlights:
+      #     - "Developed a platform to upload user information and generate a resume webpage"
+      #     - "Integrated supabase for database, bucket storage and user authentication"
+      #     - "Implemented SMS based OTP authentication using Twilio"
+      #     - "Implemented an image picker and cropper using JavaScript"
+      # - name: Modern Matrimony
+      #   start_date: 2023-06
+      #   end_date: 2023-11
+      #   highlights:
+      #     - "Developed a matrimony website as part of a high school graduation project"
+      #     - "Implemented a customized algorithm for matchmaking based on various parameters"
+      #     - "Implemented cookie based authentication and persistent sessions"
+      #     - "Collaborated and successfully headed a team of 6"
+      # - name: SRM Fetcher
+      #   start_date: 2021-04
+      #   end_date: 2022-01
+      #   highlights:
+      #     - "Developed a web scraping discord bot to fetch class links from school website everyday"
+      #     - "100+ daily active users with an uptime of 99.9%"
+      #     - "Prevented the school website from crashing everyday, by spreading out requests over time"
 
     Experience:
       - company: Sharanga HPC Cluster
@@ -320,10 +320,10 @@ settings:
     markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
     html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
     png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
-    dont_generate_markdown: false
-    dont_generate_html: false
+    dont_generate_markdown: true
+    dont_generate_html: true
     dont_generate_typst: false
     dont_generate_pdf: false
-    dont_generate_png: false
+    dont_generate_png: true
   bold_keywords: []
   pdf_title: NAME - CV
