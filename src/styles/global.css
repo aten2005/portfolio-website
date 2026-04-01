@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
 h1 {
     @apply text-3xl text-zinc-300 font-bold;
 }
