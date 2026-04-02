@@ -22,7 +22,3 @@ html {
         @apply text-base text-zinc-300;
     }
 }
-
-@view-transition {
-    navigation: auto;
-}
