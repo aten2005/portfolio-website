@@ -10,9 +10,6 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
   site: "https://staging.aten2005.dev",
-  prefetch: {
-    prefetchAll: true
-  },
   integrations: [
     mdx({
       gfm: true,
