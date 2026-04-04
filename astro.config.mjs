@@ -7,11 +7,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 import mdx from '@astrojs/mdx';
 
-import cloudflare from '@astrojs/cloudflare';
-
 // https://astro.build/config
 export default defineConfig({
-  integrations: [alpinejs(),
+  site: "https://staging.aten2005.dev",
+  integrations: [
     mdx({
       gfm: true,
     })
@@ -23,6 +22,4 @@ export default defineConfig({
       allowedHosts: ["fedora.local.com"]
   }
   },
-
-  adapter: cloudflare()
 });
