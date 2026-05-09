@@ -6,7 +6,7 @@
   name: "Archisman Das",
   title: "Archisman Das - CV",
   footer: context { [#emph[Archisman Das -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 4,
+    month: 5,
+    day: 9,
   ),
 )
 
@@ -221,7 +221,7 @@
   main-column-second-row: [
     - Implemented a CI\/CD pipeline utilizing GitHub Actions to automate site deployments to AWS S3 and CloudFront
 
-    - Developed an open-source serverless edge OAuth handler for Decap CMS utilizing Hono and AWS Lambda.
+    - Developed a serverless edge OAuth handler for Decap CMS using Hono and AWS Lambda.
 
     - Built an internal operational interface to aggregate reviewer feedback, improving automated account flagging.
 
@@ -230,7 +230,7 @@
 
 #regular-entry(
   [
-    #strong[Member]
+    #strong[President]
 
     #emph[CRUx, The Programming and Computing Club]
 
@@ -246,7 +246,7 @@
 
     - Conducted a dualboot workshop for incoming freshers to promote linux use on campus.
 
-    - Managed deployment for ChronoFactorem, a timetable creation utility for our campus using Docker
+    - Managed deployment for ChronoFactorem, a timetable creation utility for our campus using Docker Compose
 
   ],
 )
