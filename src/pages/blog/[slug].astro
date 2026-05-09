@@ -16,8 +16,10 @@ const { Content } = await render(post);
 ---
 <HomeLayout title="Blogs">
 	<div class="text-zinc-400 flex flex-col gap-2 py-4">
-        <h1>{post.data.title}</h1>
-        <p class="pb-4">{post.data.pubdate.toLocaleDateString()}</p>
-        <Content />
+        <h1 class="text-3xl text-zinc-300 font-bold">{post.data.title}</h1>
+        <p class="text-sm text-zinc-400 pb-2">{post.data.pubdate.toLocaleDateString('en-IN')}</p>
+        <article>
+          <Content />
+        </article>
     </div>
 </HomeLayout>
