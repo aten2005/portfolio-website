@@ -86,17 +86,17 @@ cv:
         end_date: 2025-12
         highlights:
           - "Implemented a CI/CD pipeline utilizing GitHub Actions to automate site deployments to AWS S3 and CloudFront"
-          - "Developed an open-source serverless edge OAuth handler for Decap CMS utilizing Hono and AWS Lambda."
+          - "Developed a serverless edge OAuth handler for Decap CMS using Hono and AWS Lambda."
           - "Built an internal operational interface to aggregate reviewer feedback, improving automated account flagging."
       - company: CRUx, The Programming and Computing Club
         location: Hyderabad, Telangana
-        position: Member
+        position: President
         start_date: 2024-09
         end_date: present
         highlights:
           - "Setup and managed containers for our flagship CTF CruXipher, using Docker and CTFd"
           - "Conducted a dualboot workshop for incoming freshers to promote linux use on campus."
-          - "Managed deployment for ChronoFactorem, a timetable creation utility for our campus using Docker"
+          - "Managed deployment for ChronoFactorem, a timetable creation utility for our campus using Docker Compose"
 #      - company: Automation and Robotics Club
 #        location: Hyderabad, Telangana
 #        position: Research Head
