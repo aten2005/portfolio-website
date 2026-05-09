@@ -91,7 +91,7 @@
 #connections(
   [#link("mailto:archisman0306@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[archisman0306\@gmail.com]]],
   [#link("tel:+91-98302-12422", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+91 98302 12422]]],
-  [#connection-with-icon("location-dot")[]],
+  [#connection-with-icon("location-dot")[null]],
   [#link("https://aten2005.dev/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[aten2005.dev]]],
   [#link("https://linkedin.com/in/aten2005", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[aten2005]]],
   [#link("https://github.com/aten2005", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[aten2005]]],
