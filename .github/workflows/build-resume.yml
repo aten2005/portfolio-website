@@ -21,7 +21,7 @@ jobs:
           pip install "rendercv[full]"
       - name: Build Resume
         run: |
-          rendercv render resume/resume.yaml --cv.location null
+          rendercv render resume/resume.yaml
       - name: Copy Artifacts
         uses: peaceiris/actions-gh-pages@v3
         with:
