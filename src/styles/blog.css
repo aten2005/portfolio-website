@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./theme.css";
 
 article {
   /* Centers the content on the page */
@@ -61,4 +62,12 @@ article li > ul,
 article li > ol {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
+}
+
+article a {
+  @apply text-accent underline decoration-dashed decoration-1 underline-offset-4
+}
+
+article code {
+  @apply bg-zinc-800 text-accent font-medium text-[0.9em] font-mono px-1.5 py-0.5 rounded-sm;
 }

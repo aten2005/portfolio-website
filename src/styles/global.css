@@ -1,19 +1,9 @@
 @import "tailwindcss";
+@import "./theme.css";
 
 html {
     overflow-y: auto;
     scrollbar-gutter: stable;
-}
-
-@theme {
-  --color-accent: #F9C80E;
-  /* Mix 20% white for a brighter hover state */
-  --color-accent-light: color-mix(in srgb, var(--color-accent), white 10%);
-    /* Mix 40% of your zinc-900 background for a cohesive dark shade */
-  --color-accent-muted: color-mix(in srgb-linear, var(--color-accent), #18181b 50%);
-  --color-accent-dark: color-mix(in srgb-linear, var(--color-accent), #18181b 80%);
-  /* --color-accent: #FFBF00; */
-  /* --color-accent: #E4572E */
 }
 
 @layer base {
