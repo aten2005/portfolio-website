@@ -25,9 +25,13 @@ html {
 }
 
 .link {
-  @apply text-accent underline decoration-dashed decoration-1 underline-offset-4
+  @apply text-accent underline decoration-dashed decoration-1 underline-offset-4;
 }
 
 .clickable {
-  @apply hover:text-accent hover:decoration-wavy hover:underline decoration-1
+  @apply hover:text-accent hover:decoration-wavy hover:underline decoration-1;
+}
+
+.underline-accent {
+  @apply underline decoration-2 underline-offset-2 decoration-accent;
 }
