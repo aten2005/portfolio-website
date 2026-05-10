@@ -9,7 +9,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://staging.aten2005.dev",
+  site: "https://aten2005.dev",
   integrations: [
     mdx({
       gfm: true,
@@ -20,6 +20,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
     server: {
       allowedHosts: ["fedora.local.com"]
-  }
+    }
   },
 });
