@@ -15,7 +15,7 @@ export default defineConfig({
       gfm: true,
     })
   ],
-
+  trailingSlash: 'always',
   vite: {
     plugins: [tailwindcss()],
     server: {

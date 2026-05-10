@@ -15,7 +15,7 @@ const sortedPosts = posts.sort((a, b) => b.data.pubdate.getTime() - a.data.pubda
     <div class="flex flex-col gap-4 mb-6 mt-2">
         {sortedPosts.map(post => (
             <div class="w-fit">
-                <a href={`/blog/${post.data.slug}`}>
+                <a href={`/blog/${post.data.slug}/`}>
                     <h2 class="font-bold clickable">{post.data.title}</h2>
                 </a>
                 <p class="text-sm text-zinc-500">{post.data.pubdate.toLocaleDateString("en-IN")}</p>
