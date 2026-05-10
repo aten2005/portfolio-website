@@ -54,10 +54,6 @@ article ul li,article ol li {
   padding-left: 0.375em;
 }
 
-/* 
-  Tailwind Typography nested list spacing.
-  Targets lists inside of list items to reduce the gap.
-*/
 article li > ul,
 article li > ol {
   margin-top: 0.75em;
@@ -70,4 +66,8 @@ article a {
 
 article code {
   @apply bg-zinc-800 text-accent font-medium text-[0.9em] font-mono px-1.5 py-0.5 rounded-sm;
+}
+
+article hl {
+  @apply text-accent;
 }
