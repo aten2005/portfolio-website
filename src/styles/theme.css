@@ -1,4 +1,15 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
+
+  --font-sans: "Inter", system-ui, sans-serif;
+
   --color-accent: #DBB005;
   --color-accent-light: color-mix(in srgb, var(--color-accent), white 10%);
   --color-accent-muted: color-mix(in srgb-linear, var(--color-accent), #18181b 50%);
