@@ -17,7 +17,7 @@ const experience = data.sections["Experience"];
 		<h2 class="underline-accent">Education</h2>
 		{education.map(entry => (
 			<div>
-				<div class="flex flex-row justify-between">
+				<div class="flex flex-row justify-between items-center">
 					<h3 class="text-base md:text-xl">{entry.institution}</h3>
 					<p class="text-xs md:text-base align-baseline">{new Date(entry.start_date).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})} - {entry.end_date === "present" ? "Present" : new Date(entry.end_date).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</p>
 				</div>
@@ -52,7 +52,7 @@ const experience = data.sections["Experience"];
 		{projects.map(entry => (
 			<div>
 				<div>
-					<div class="flex flex-row justify-between">
+					<div class="flex flex-row justify-between items-center">
 						<h3 class="text-base md:text-xl">{entry.name}</h3>
 						<p class="text-xs md:text-base align-baseline">{new Date(entry.start_date).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})} - {entry.end_date === "present" ? "Present" : new Date(entry.end_date).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</p>
 					</div>
