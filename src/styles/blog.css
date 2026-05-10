@@ -65,7 +65,7 @@ article a {
 }
 
 article code {
-  @apply bg-zinc-800 text-accent font-medium text-[0.9em] font-mono px-1.5 py-0.5 rounded-sm;
+  @apply bg-zinc-800 text-accent font-mono px-1.5 py-0.5 rounded-sm;
 }
 
 article hl {
