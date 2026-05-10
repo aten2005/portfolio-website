@@ -5,6 +5,17 @@ html {
     scrollbar-gutter: stable;
 }
 
+@theme {
+  --color-accent: #F9C80E;
+  /* Mix 20% white for a brighter hover state */
+  --color-accent-light: color-mix(in srgb, var(--color-accent), white 10%);
+    /* Mix 40% of your zinc-900 background for a cohesive dark shade */
+  --color-accent-muted: color-mix(in srgb-linear, var(--color-accent), #18181b 50%);
+  --color-accent-dark: color-mix(in srgb-linear, var(--color-accent), #18181b 80%);
+  /* --color-accent: #FFBF00; */
+  /* --color-accent: #E4572E */
+}
+
 @layer base {
     h1 {
         @apply text-3xl text-zinc-300 font-bold;
@@ -19,6 +30,14 @@ html {
     }
     
     p {
-        @apply text-base text-zinc-300;
+        @apply text-base text-zinc-400;
     }
+}
+
+.link {
+  @apply text-accent underline decoration-dashed decoration-1 underline-offset-4
+}
+
+.clickable {
+  @apply hover:text-accent hover:decoration-wavy hover:underline decoration-1
 }
