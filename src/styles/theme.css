@@ -1,8 +1,6 @@
 @theme {
-  --color-accent: #EFBC06;
+  --color-accent: #DBB005;
   --color-accent-light: color-mix(in srgb, var(--color-accent), white 10%);
   --color-accent-muted: color-mix(in srgb-linear, var(--color-accent), #18181b 50%);
   --color-accent-dark: color-mix(in srgb-linear, var(--color-accent), #18181b 80%);
-  /* --color-accent: #FFBF00; */
-  /* --color-accent: #E4572E */
 }
