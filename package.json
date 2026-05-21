@@ -9,6 +9,7 @@
     "dev": "astro dev --host",
     "build": "astro build",
     "preview": "npm run build && wrangler dev",
+    "build:resume": "rendercv render resume/resume.yaml",
     "astro": "astro",
     "generate-types": "wrangler types",
     "deploy": "npm run build && wrangler deploy"
